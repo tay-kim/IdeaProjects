@@ -19,7 +19,7 @@
 	
 	//2
 	BoardDAO dao=new BoardDAO();
-	BoardVO vo=null;
+	BoardVO vo=null; //깃허브에서 추가 테스트
 	try{
 		vo=dao.selectByNo(Integer.parseInt(no));	
 	}catch(SQLException e){
